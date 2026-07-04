@@ -64,5 +64,16 @@
     <button onclick="setLang('fr')">🇫🇷 Français</button>
     <button onclick="setLang('ar')">🇸🇦 العربية</button>
 </div>
+<div class="login-box">
+    <button id="googleLogin">Google ile Giriş Yap</button>
+
+    <div id="userInfo" style="display:none;">
+        <img id="userPhoto" width="50" height="50" style="border-radius:50%;">
+        <h3 id="userName"></h3>
+        <button id="logout">Çıkış Yap</button>
+    </div>
+</div>
+
+<script type="module" src="firebase.js"></script>
 </body>
 </html>
