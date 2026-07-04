@@ -244,3 +244,29 @@ body{
 }
 
 }
+.lang-menu{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+
+    display: flex;
+    gap: 8px;
+
+    z-index: 999;
+}
+
+.lang-menu button{
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #30363D;
+
+    background: #0D1117;
+    color: #E6EDF3;
+
+    cursor: pointer;
+    transition: .2s;
+}
+
+.lang-menu button:hover{
+    background: #238636;
+}
