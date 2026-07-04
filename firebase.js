@@ -9,7 +9,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "BURAYA_YENI_API_KEY",
+    apiKey: "AIzaSyBnwooYge3WrLXcHuPErKkZIEtP00adxDM",
     authDomain: "randkelime.firebaseapp.com",
     projectId: "randkelime",
     storageBucket: "randkelime.firebasestorage.app",
