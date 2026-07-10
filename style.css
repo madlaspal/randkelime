@@ -301,6 +301,11 @@ color:white;
 
 font-weight:bold;
 
+   position: fixed;   /* Ekrana sabitler */
+    top: 10px;         /* Üstten boşluk */
+    left: 10px;        /* Soldan boşluk */
+    z-index: 9999;     /* Diğer öğelerin üstünde görünmesi için */
+
 }
 
 #logout{
@@ -310,6 +315,12 @@ margin-top:10px;
 padding:8px 15px;
 
 cursor:pointer;
+
+ position: fixed;   /* Ekrana sabitler */
+    top: 10px;         /* Üstten boşluk */
+    left: 10px;        /* Soldan boşluk */
+    z-index: 9999;     /* Diğer öğelerin üstünde görünmesi için */
+
 
 }
 #googleLogin,
