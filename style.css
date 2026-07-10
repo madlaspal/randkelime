@@ -358,7 +358,7 @@ cursor:pointer;
     border: 2px solid white;
     position: fixed;   /* Ekrana sabitler */
     top: 10px;         /* Üstten boşluk */
-    left: 10px;        /* Soldan boşluk */
+    left: 100px;        /* Soldan boşluk */
     z-index: 9999;     /* Diğer öğelerin üstünde görünmesi için */
 }
 
@@ -368,6 +368,6 @@ cursor:pointer;
     color: white;
     position: fixed;   /* Ekrana sabitler */
     top: 10px;         /* Üstten boşluk */
-    left: 10px;        /* Soldan boşluk */
+    left: 100px;        /* Soldan boşluk */
     z-index: 9999;     /* Diğer öğelerin üstünde görünmesi için */
 }
