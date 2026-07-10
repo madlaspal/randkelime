@@ -356,10 +356,18 @@ cursor:pointer;
     height: 55px;
     border-radius: 50%;
     border: 2px solid white;
+    position: fixed;   /* Ekrana sabitler */
+    top: 10px;         /* Üstten boşluk */
+    left: 10px;        /* Soldan boşluk */
+    z-index: 9999;     /* Diğer öğelerin üstünde görünmesi için */
 }
 
 #userName{
     margin: 5px 0;
     font-size: 15px;
     color: white;
+    position: fixed;   /* Ekrana sabitler */
+    top: 10px;         /* Üstten boşluk */
+    left: 10px;        /* Soldan boşluk */
+    z-index: 9999;     /* Diğer öğelerin üstünde görünmesi için */
 }
